@@ -53,7 +53,7 @@ underwater-sound-classification/
 ## Technologies Used
 
 - Python
-- Jupyter Notebook / Google Colab
+- Google Colab
 - NumPy
 - Pandas
 - Librosa
@@ -76,18 +76,18 @@ pip install -r requirements.txt
 
 ## Current Progress
 
-| Step               | Status                                               |
-| ------------------ | ---------------------------------------------------- |
-| Problem Definition | [done]Underwater sound classification                |
-| Data Collection    | [done] Collecting biological, vessel, and ambient sounds|
-| Data Cleaning      | [] Remove bad/duplicate/inconsistent audio           |
-| Data Visualization | [done] Your visualization notebook                   |
-| Feature Extraction | [] Extract MFCC, Chroma, Spectral Centroid, ZCR, etc.|
-| Train/Test Split   | [] After feature extraction                          |
-| Model Training     | [] Train a classifier (e.g., Random Forest or SVM)   |
-| Evaluation         | [] Measure accuracy, precision, recall, F1 score     |
-| Tuning             | [] Optimize model and features                       |
-| Deployment         | [] Build a prediction script or simple application   |
+| Step               | Status                                                  |
+| ------------------ | ----------------------------------------------------    |
+| Problem Definition | [done]Underwater sound classification                   |
+| Data Collection    | [done] Collecting biological, vessel, and ambient sounds| In notebook 1 
+| Data Visualization | [done] Your visualization notebook                      | In notebook 2
+| Data Cleaning      | [] Remove bad/duplicate/inconsistent audio              |
+| Feature Extraction | [] Extract MFCC, Chroma, Spectral Centroid, ZCR, etc.   |
+| Train/Test Split   | [] After feature extraction                             |
+| Model Training     | [] Train a classifier (e.g., Random Forest or SVM)      |
+| Evaluation         | [] Measure accuracy, precision, recall, F1 score        |
+| Tuning             | [] Optimize model and features                          |
+| Deployment         | [] Build a prediction script or simple application      |
 
 ## Future Improvements
 
