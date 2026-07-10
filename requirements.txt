@@ -1,0 +1,14 @@
+# --- Audio Processing & System ---
+librosa
+soundfile
+pathlib
+
+# --- Data Manipulation & Machine Learning ---
+numpy
+pandas
+scikit-learn
+joblib
+
+# --- Visualization & Progress Tracking ---
+matplotlib
+tqdm
