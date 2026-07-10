@@ -1,5 +1,7 @@
 # Underwater Accoustic Classifier
 
+Live at - https://underwater-accoustic-classifier-fcw6yw5jmxbu84tvmzpwfk.streamlit.app/
+
 ## Overview
 This project aims to classify underwater audio recordings into different sound categories using machine learning. The goal is to extract meaningful audio features and train a model that can automatically identify the type of underwater sound.
 
@@ -38,76 +40,143 @@ The sources of the Dataset are -
 
 Underwater-Acoustic-Classifier/
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
+
 │
+
 ├── data/
+
 │   ├── augmented/
+
 │   ├── features/
+
 │   ├── processed/
+
 │   ├── raw/
+
 │   ├── scaled/
+
 │   └── splits/
+
 │
+
 ├── models/
+
 │   ├── Logistic_regression.pkl
+
 │   ├── SVM.pkl
+
 │   ├── Random_forest.pkl
+
 │   ├── KNN.pkl
+
 │   ├── XGBoost.pkl
+
 │   └── standard_scaler.pkl
+
 │
+
 ├── notebooks/
+
 │   ├── 01_Loading_files.ipynb
+
 │   ├── 02_Data_visualisation.ipynb
+
 │   ├── 03_Data_preprocessing.ipynb
+
 │   ├── 04_Data_augmentation.ipynb
+
 │   ├── 05_Feature_Extraction.ipynb
+
 │   ├── 06_Train_test_split.ipynb
+
 │   ├── 07_Feature_scaling.ipynb
+
 │   ├── 08_Logistic_regression.ipynb
+
 │   ├── 09_Support_vector_machine.ipynb
+
 │   ├── 10_Random_forest.ipynb
+
 │   ├── 11_KNN.ipynb
+
 │   ├── 12_XGBoost.ipynb
+
 │   ├── 13_Model_comparision.ipynb
+
 │   ├──
+
 │
+
 └── src/
-    ├── __pycache__/
-    ├── __init__.py
-    ├── features.py
-    ├── preprocess.py
-    └── predict.py
+
+├── __pycache__/
+
+    
+├── __init__.py
+   
+├── features.py
+    
+├── preprocess.py
+    
+└── predict.py
+    
 
 ## Workflow
 
+
 1. Collect audio recordings
+ 
 2. Organize the dataset
+ 
 3. Data Visualisation
-3. Data cleaning and Preprocessing
-4. Data Augmentation
-5. Extract audio features (MFCC, Chroma, Spectral Centroid, Zero Crossing Rate)
-6. Splitting of the Data set Train/Test split
-7. Train machine learning models - Logistic Regression
-                                 - SVM
-                                 - RandomForest
-                                 - KNN
-                                 - XGBoost
-8. Evaluate performance and compare the models
-9. Predict sound categories for new audio
+ 
+4. Data cleaning and Preprocessing
+ 
+5. Data Augmentation
+ 
+6. Extract audio features (MFCC, Chroma, Spectral Centroid, Zero Crossing Rate)
+
+7. Splitting of the Data set Train/Test split
+
+8. Train machine learning models - Logistic Regression
+
+   - SVM
+    
+     - RandomForest
+    
+        - KNN
+    
+           - XGBoost
+    
+9. Evaluate performance and compare the models
+ 
+10. Predict sound categories for new audio
+ 
 
 ## Technologies Used
 
 - Python
+  
 - Google Colab
+  
 - NumPy
+  
 - Pandas
+  
 - Librosa
+  
 - Matplotlib
+  
 - Scikit-learn
+  
 
 ## Installation
 
